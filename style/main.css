@@ -1,0 +1,48 @@
+aside,
+header,
+section{
+    display: block;
+}
+
+header,
+section,
+aside{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 800px;
+
+    margin: 2em auto;
+}
+header{
+    border-bottom: #800000;
+    padding: 15px 15px;
+    background-image: -webkit-linear-gradient(
+        30deg,
+        rgb(53, 44, 175) 20%,
+        white 50%,
+        rgb(28, 42, 172) 65%
+    );
+    background-image: -moz-linear-gradient(30deg, rgb(97, 69, 221) 65%, white 50%, rgb(66, 76, 206) 65%);
+    background-image: -IE-linear-gradient(30deg, rgb(52, 43, 180) 65%, white 50%, rgb(74, 72, 167) 65%);
+}
+header img{
+    float: left;
+    padding: 15px;
+}
+section{
+    float: left;
+    width: 600x;
+    padding-left: 15px;
+    text-align: justify;
+    
+}
+section img{
+    float: left;
+    padding: 5px 5px 0 0;
+}
+ aside{
+    float: right;
+    width: 300px;
+} 

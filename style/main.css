@@ -31,18 +31,3 @@ header img{
     float: left;
     padding: 15px;
 }
-section{
-    float: left;
-    width: 600x;
-    padding-left: 15px;
-    text-align: justify;
-    
-}
-section img{
-    float: left;
-    padding: 5px 5px 0 0;
-}
- aside{
-    float: right;
-    width: 300px;
-} 
